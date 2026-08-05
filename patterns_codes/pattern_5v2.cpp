@@ -2,7 +2,7 @@
 using namespace std;
 
 void print_5 (int x) {
-    for (int i=x; i>0; i--){
+    for (int i=x; i>0; i--){    // reversing the outer array
         for (int j=0; j<i; j++){
             cout<<"* ";
         }
